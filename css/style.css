@@ -1792,93 +1792,6 @@ body {
 }
 
 
-
-/* MOBILE */
-
-@media(max-width:600px){
-
-    .header{
-
-        padding:25px;
-    }
-
-    .logo img{
-
-        height:50px;
-    }
-
-    .menu{
-
-        gap:20px;
-    }
-
-    .menu a{
-
-        font-size:14px;
-    }
-
-    .btn-header{
-
-        width:100%;
-
-        justify-content:center;
-    }
-
-    .hero-banner{
-
-        height:auto;
-    }
-
-    .hero-content{
-
-        padding:60px 25px;
-    }
-
-    .hero-content span{
-
-        font-size:12px;
-
-        letter-spacing:3px;
-    }
-
-    .hero-content h1{
-
-        font-size:38px;
-
-        line-height:1.1;
-    }
-
-    .hero-content p{
-
-        font-size:18px;
-
-        line-height:1.7;
-    }
-
-    .banner-buttons{
-
-        flex-direction:column;
-    }
-
-    .btn-banner{
-
-        width:100%;
-
-        justify-content:center;
-    }
-
-    .stats-grid{
-
-        grid-template-columns:1fr;
-    }
-
-    .logo-box{
-
-        padding:40px 25px;
-    }
-}
-
-
 /* =========================================================
    SCROLL ANIMATION
 ========================================================= */
@@ -2004,7 +1917,7 @@ body {
 
 
 /* =========================================================
-   MOBILE FINAL FIX
+   MOBILE FIX
 ========================================================= */
 
 @media(max-width:768px){
@@ -2015,11 +1928,16 @@ body {
 
         height:auto;
 
-        padding:20px;
+        padding:15px 20px;
 
         flex-direction:column;
 
-        gap:20px;
+        gap:15px;
+    }
+
+    .logo img{
+
+        height:48px;
     }
 
     .menu{
@@ -2030,7 +1948,12 @@ body {
 
         flex-wrap:wrap;
 
-        gap:18px;
+        gap:15px;
+    }
+
+    .menu a{
+
+        font-size:14px;
     }
 
     .btn-header{
@@ -2046,7 +1969,16 @@ body {
 
     .hero-banner{
 
+        margin-top:170px;
+
         height:auto;
+    }
+
+    .slide img{
+
+        height:auto;
+
+        object-fit:cover;
     }
 
     .banner-buttons{
@@ -2067,6 +1999,8 @@ body {
     .btn-banner{
 
         width:100%;
+
+        font-size:13px;
     }
 
 
@@ -2075,7 +2009,7 @@ body {
 
     .cards-section{
 
-        padding:80px 20px;
+        padding:70px 20px;
     }
 
     .cards-grid{
@@ -2085,30 +2019,11 @@ body {
 
 
 
-    /* BUSINESS */
-
-    .business-section{
-
-        padding:80px 20px;
-    }
-
-    .business-content{
-
-        grid-template-columns:1fr;
-    }
-
-    .business-stats{
-
-        grid-template-columns:1fr 1fr;
-    }
-
-
-
     /* ABOUT */
 
     .about{
 
-        padding:80px 20px;
+        padding:70px 20px;
     }
 
     .about-content{
@@ -2118,7 +2033,26 @@ body {
 
     .about-text h2{
 
-        font-size:42px;
+        font-size:38px;
+    }
+
+
+
+    /* BUSINESS */
+
+    .business-section{
+
+        padding:70px 20px;
+    }
+
+    .business-content{
+
+        grid-template-columns:1fr;
+    }
+
+    .business-stats{
+
+        grid-template-columns:1fr;
     }
 
 
@@ -2127,12 +2061,12 @@ body {
 
     .cta{
 
-        padding:0 20px 80px;
+        padding:0 20px 70px;
     }
 
     .cta-content{
 
-        padding:40px 25px;
+        padding:35px 25px;
 
         flex-direction:column;
 
@@ -2141,7 +2075,7 @@ body {
 
     .cta-content h2{
 
-        font-size:34px;
+        font-size:32px;
     }
 
 
