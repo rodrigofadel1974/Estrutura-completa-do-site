@@ -1,0 +1,379 @@
+/* =========================================================
+   TRAINING HERO
+========================================================= */
+
+.training-hero{
+
+    width:100%;
+
+    padding:140px 80px;
+
+    background:
+    linear-gradient(
+        135deg,
+        #071028,
+        #0f172a
+    );
+
+    color:white;
+}
+
+
+
+/* CONTENT */
+
+.training-hero-content{
+
+    width:100%;
+
+    max-width:1200px;
+
+    margin:auto;
+}
+
+
+
+/* TAG */
+
+.training-hero-content span{
+
+    color:#3b82f6;
+
+    font-size:14px;
+
+    font-weight:700;
+
+    letter-spacing:5px;
+}
+
+
+
+/* TITLE */
+
+.training-hero-content h1{
+
+    margin-top:25px;
+
+    font-size:72px;
+
+    line-height:1.1;
+
+    font-weight:800;
+
+    max-width:950px;
+}
+
+
+
+/* TEXT */
+
+.training-hero-content p{
+
+    margin-top:30px;
+
+    max-width:850px;
+
+    font-size:22px;
+
+    line-height:1.8;
+
+    color:#cbd5e1;
+}
+
+
+
+/* =========================================================
+   TRAININGS
+========================================================= */
+
+.trainings{
+
+    width:100%;
+
+    padding:120px 80px;
+
+    background:#f8fafc;
+}
+
+
+
+/* GRID */
+
+.trainings-grid{
+
+    width:100%;
+
+    max-width:1300px;
+
+    margin:auto;
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:30px;
+}
+
+
+
+/* CARD */
+
+.training-card{
+
+    background:white;
+
+    border-radius:30px;
+
+    padding:50px;
+
+    border:1px solid #e2e8f0;
+
+    transition:0.4s;
+
+    box-shadow:
+    0 15px 40px rgba(15,23,42,0.04);
+}
+
+.training-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:
+    0 25px 50px rgba(15,23,42,0.08);
+}
+
+
+
+/* ICON */
+
+.training-card i{
+
+    width:90px;
+    height:90px;
+
+    border-radius:24px;
+
+    background:#eff6ff;
+
+    color:#2563eb;
+
+    font-size:38px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+}
+
+
+
+/* TITLE */
+
+.training-card h3{
+
+    margin-top:35px;
+
+    font-size:32px;
+
+    color:#0f172a;
+
+    font-weight:800;
+}
+
+
+
+/* TEXT */
+
+.training-card p{
+
+    margin-top:20px;
+
+    font-size:18px;
+
+    line-height:1.9;
+
+    color:#64748b;
+}
+
+
+/* =========================================================
+   TRAINING EXPERIENCE
+========================================================= */
+
+.training-experience{
+
+    width:100%;
+
+    padding:120px 80px;
+
+    background:white;
+}
+
+
+
+/* GRID */
+
+.training-experience-grid{
+
+    width:100%;
+
+    max-width:1300px;
+
+    margin:auto;
+
+    display:grid;
+
+    grid-template-columns:500px 1fr;
+
+    gap:80px;
+
+    align-items:center;
+}
+
+
+
+/* IMAGE */
+
+.training-experience-image img{
+
+    width:100%;
+
+    border-radius:30px;
+
+    display:block;
+
+    box-shadow:
+    0 20px 50px rgba(15,23,42,0.08);
+}
+
+
+
+/* TEXT */
+
+.training-experience-text span{
+
+    color:#2563eb;
+
+    font-size:14px;
+
+    font-weight:700;
+
+    letter-spacing:5px;
+}
+
+.training-experience-text h2{
+
+    margin-top:20px;
+
+    font-size:58px;
+
+    line-height:1.1;
+
+    color:#0f172a;
+
+    font-weight:800;
+}
+
+.training-experience-text p{
+
+    margin-top:25px;
+
+    font-size:20px;
+
+    line-height:1.9;
+
+    color:#64748b;
+}
+
+
+
+/* BENEFITS */
+
+.training-benefits{
+
+    margin-top:35px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:20px;
+}
+
+
+
+/* ITEM */
+
+.training-benefit{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+}
+
+.training-benefit i{
+
+    color:#2563eb;
+
+    font-size:22px;
+}
+
+.training-benefit span{
+
+    font-size:18px;
+
+    color:#0f172a;
+
+    font-weight:600;
+
+    letter-spacing:0;
+}
+
+
+
+/* BUTTON */
+
+.training-btn{
+
+    margin-top:40px;
+
+    width:260px;
+
+    height:64px;
+
+    border-radius:18px;
+
+    background:
+    linear-gradient(
+        135deg,
+        #2563eb,
+        #1d4ed8
+    );
+
+    color:white;
+
+    text-decoration:none;
+
+    font-size:16px;
+
+    font-weight:700;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    transition:0.4s;
+
+    box-shadow:
+    0 15px 35px rgba(37,99,235,0.18);
+}
+
+.training-btn:hover{
+
+    transform:translateY(-5px);
+}
