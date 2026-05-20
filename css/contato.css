@@ -534,11 +534,53 @@
 }
 
 
-@media screen and (max-width: 768px){
+@media(max-width: 768px){
 
     body{
 
-        background:red !important;
+        overflow-x: hidden;
+    }
+
+    .contact-grid{
+
+        grid-template-columns: 1fr;
+    }
+
+    .contact-section{
+
+        padding: 70px 25px;
+    }
+
+    .contact-form{
+
+        padding: 30px;
+    }
+
+    .contact-hero{
+
+        padding: 110px 25px 60px;
+    }
+
+    .contact-hero-content h1{
+
+        font-size: 42px;
+    }
+
+    .contact-hero-content p{
+
+        font-size: 18px;
+
+        line-height: 1.7;
+    }
+
+    .contact-cta-content{
+
+        flex-direction: column;
+    }
+
+    .contact-cta-content a{
+
+        min-width: 100%;
     }
 
 }
