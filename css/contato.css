@@ -482,3 +482,16 @@
 
     transform: translateY(-5px);
 }
+
+/* =========================================================
+   CONTACT RESPONSIVE
+========================================================= */
+
+@media(max-width: 768px){
+
+    .contact-hero{
+
+        padding: 110px 25px 60px;
+    }
+
+}
