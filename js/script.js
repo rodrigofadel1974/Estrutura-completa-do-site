@@ -1,18 +1,25 @@
-const header = document.querySelector('.header');
+// =========================================================
+// HEADER SCROLL
+// =========================================================
 
-window.addEventListener('scroll', () => {
+const header = document.querySelector(".header");
 
-    if(window.scrollY > 50){
+window.addEventListener("scroll", () => {
 
-        header.style.boxShadow = '0 10px 30px rgba(0,0,0,0.08)';
+    if(window.scrollY > 40){
+
+        header.classList.add("scrolled");
 
     }else{
 
-        header.style.boxShadow = 'none';
-
+        header.classList.remove("scrolled");
     }
-
 });
+
+
+// =========================================================
+// HERO SLIDER
+// =========================================================
 
 let slideIndex = 0;
 
@@ -25,7 +32,6 @@ if(slides.length > 0){
         slides.forEach(slide => {
 
             slide.classList.remove("active");
-
         });
 
         slideIndex++;
@@ -36,13 +42,17 @@ if(slides.length > 0){
         }
 
         slides[slideIndex - 1].classList.add("active");
-
     }
 
     showSlides();
 
     setInterval(showSlides, 5000);
 }
+
+
+// =========================================================
+// REVEAL ON SCROLL
+// =========================================================
 
 const reveals = document.querySelectorAll(".reveal");
 
