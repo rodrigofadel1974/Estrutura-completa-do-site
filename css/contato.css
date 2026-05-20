@@ -494,4 +494,27 @@
         padding: 110px 25px 60px;
     }
 
+}/* =========================================================
+   CONTACT RESPONSIVE
+========================================================= */
+
+@media(max-width: 768px){
+
+    .contact-hero{
+
+        padding: 110px 25px 60px;
+    }
+
+    .contact-hero-content h1{
+
+        font-size: 42px;
+    }
+
+    .contact-hero-content p{
+
+        font-size: 18px;
+
+        line-height: 1.7;
+    }
+
 }
