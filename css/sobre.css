@@ -279,3 +279,96 @@
 
     color:#64748b;
 }
+
+/* =========================================================
+   ABOUT RESPONSIVE
+========================================================= */
+
+@media(max-width: 768px){
+
+    body{
+
+        overflow-x:hidden;
+    }
+
+    .page-hero{
+
+        padding:220px 25px 60px;
+    }
+
+    .page-hero-content h1{
+
+        font-size:42px;
+    }
+
+    .page-hero-content p{
+
+        font-size:18px;
+
+        line-height:1.7;
+    }
+
+    .about-company{
+
+        padding:70px 25px;
+    }
+
+    .about-company-grid{
+
+        grid-template-columns:1fr;
+
+        gap:50px;
+    }
+
+    .about-company-text h2{
+
+        font-size:42px;
+    }
+
+    .about-company-text p{
+
+        font-size:18px;
+
+        line-height:1.8;
+    }
+
+    .values{
+
+        padding:70px 25px;
+    }
+
+    .values-title{
+
+        margin-bottom:50px;
+    }
+
+    .values-title h2{
+
+        font-size:42px;
+    }
+
+    .values-grid{
+
+        grid-template-columns:1fr;
+
+        gap:25px;
+    }
+
+    .value-card{
+
+        padding:40px 30px;
+    }
+
+    .value-card h3{
+
+        font-size:24px;
+    }
+
+    .value-card p{
+
+        font-size:17px;
+
+        line-height:1.7;
+    }
+
+}
