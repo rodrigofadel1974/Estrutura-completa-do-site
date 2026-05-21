@@ -377,3 +377,109 @@
 
     transform:translateY(-5px);
 }
+
+/* =========================================================
+   TRAINING RESPONSIVE
+========================================================= */
+
+@media(max-width: 768px){
+
+    body{
+
+        overflow-x:hidden;
+    }
+
+    .training-hero{
+
+        padding:220px 25px 60px;
+    }
+
+    .training-hero-content h1{
+
+        font-size:42px;
+    }
+
+    .training-hero-content p{
+
+        font-size:18px;
+
+        line-height:1.7;
+    }
+
+    .trainings{
+
+        padding:70px 25px;
+    }
+
+    .trainings-grid{
+
+        grid-template-columns:1fr;
+
+        gap:25px;
+    }
+
+    .training-card{
+
+        padding:40px 30px;
+    }
+
+    .training-card i{
+
+        width:70px;
+        height:70px;
+
+        font-size:30px;
+    }
+
+    .training-card h3{
+
+        font-size:26px;
+    }
+
+    .training-card p{
+
+        font-size:17px;
+
+        line-height:1.7;
+    }
+
+    .training-experience{
+
+        padding:70px 25px;
+    }
+
+    .training-experience-grid{
+
+        grid-template-columns:1fr;
+
+        gap:50px;
+    }
+
+    .training-experience-text h2{
+
+        font-size:42px;
+    }
+
+    .training-experience-text p{
+
+        font-size:18px;
+
+        line-height:1.8;
+    }
+
+    .training-benefit{
+
+        align-items:flex-start;
+    }
+
+    .training-benefit span{
+
+        font-size:17px;
+    }
+
+    .training-btn{
+
+        width:100%;
+    }
+
+}
