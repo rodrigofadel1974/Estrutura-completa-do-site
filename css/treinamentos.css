@@ -196,6 +196,33 @@
     color:#64748b;
 }
 
+/* LINK */
+
+.training-link{
+
+    margin-top:30px;
+
+    display:inline-flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    text-decoration:none;
+
+    color:#2563eb;
+
+    font-size:16px;
+
+    font-weight:700;
+
+    transition:0.3s;
+}
+
+.training-link:hover{
+
+    gap:16px;
+}
 
 /* =========================================================
    TRAINING EXPERIENCE
@@ -377,6 +404,8 @@
 
     transform:translateY(-5px);
 }
+
+
 
 /* =========================================================
    TRAINING RESPONSIVE

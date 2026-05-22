@@ -1,0 +1,627 @@
+/* =========================================================
+   PEOPLE HERO
+========================================================= */
+
+.people-hero{
+
+    width:100%;
+
+    padding:140px 80px;
+
+    background:
+    linear-gradient(
+        135deg,
+        #071028,
+        #0f172a
+    );
+
+    color:white;
+}
+
+.people-hero-content{
+
+    width:100%;
+
+    max-width:1200px;
+
+    margin:auto;
+}
+
+.people-hero-content span{
+
+    color:#3b82f6;
+
+    font-size:14px;
+
+    font-weight:700;
+
+    letter-spacing:5px;
+}
+
+.people-hero-content h1{
+
+    margin-top:25px;
+
+    font-size:72px;
+
+    line-height:1.1;
+
+    font-weight:800;
+
+    max-width:950px;
+}
+
+.people-hero-content p{
+
+    margin-top:30px;
+
+    max-width:850px;
+
+    font-size:22px;
+
+    line-height:1.8;
+
+    color:#cbd5e1;
+}
+
+
+/* =========================================================
+   INTRO
+========================================================= */
+
+.people-intro{
+
+    width:100%;
+
+    padding:120px 80px;
+
+    background:#f8fafc;
+}
+
+.people-intro-grid{
+
+    width:100%;
+
+    max-width:1300px;
+
+    margin:auto;
+
+    display:grid;
+
+    grid-template-columns:500px 1fr;
+
+    gap:80px;
+
+    align-items:center;
+}
+
+.people-intro-image img{
+
+    width:100%;
+
+    border-radius:30px;
+
+    display:block;
+
+    box-shadow:
+    0 20px 50px rgba(15,23,42,0.08);
+}
+
+.people-intro-text span{
+
+    color:#2563eb;
+
+    font-size:14px;
+
+    font-weight:700;
+
+    letter-spacing:5px;
+}
+
+.people-intro-text h2{
+
+    margin-top:20px;
+
+    font-size:58px;
+
+    line-height:1.1;
+
+    color:#0f172a;
+
+    font-weight:800;
+}
+
+.people-intro-text p{
+
+    margin-top:25px;
+
+    font-size:20px;
+
+    line-height:1.9;
+
+    color:#64748b;
+}
+
+
+/* =========================================================
+   SERVICES
+========================================================= */
+
+.people-services{
+
+    width:100%;
+
+    padding:120px 80px;
+
+    background:white;
+}
+
+.people-services-title{
+
+    text-align:center;
+
+    margin-bottom:70px;
+}
+
+.people-services-title span{
+
+    color:#2563eb;
+
+    font-size:14px;
+
+    font-weight:700;
+
+    letter-spacing:5px;
+}
+
+.people-services-title h2{
+
+    margin-top:20px;
+
+    font-size:58px;
+
+    color:#0f172a;
+
+    font-weight:800;
+}
+
+.people-services-grid{
+
+    width:100%;
+
+    max-width:1300px;
+
+    margin:auto;
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:30px;
+}
+
+.people-card{
+
+    background:#f8fafc;
+
+    border-radius:30px;
+
+    padding:50px;
+
+    border:1px solid #e2e8f0;
+
+    transition:0.4s;
+}
+
+.people-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:
+    0 20px 40px rgba(15,23,42,0.06);
+}
+
+.people-card i{
+
+    width:90px;
+    height:90px;
+
+    border-radius:24px;
+
+    background:#eff6ff;
+
+    color:#2563eb;
+
+    font-size:38px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+}
+
+.people-card h3{
+
+    margin-top:35px;
+
+    font-size:30px;
+
+    color:#0f172a;
+
+    font-weight:800;
+}
+
+.people-card p{
+
+    margin-top:20px;
+
+    font-size:18px;
+
+    line-height:1.8;
+
+    color:#64748b;
+}
+
+
+/* =========================================================
+   BENEFITS
+========================================================= */
+
+.people-benefits{
+
+    width:100%;
+
+    padding:120px 80px;
+
+    background:#f8fafc;
+}
+
+.people-benefits-content{
+
+    width:100%;
+
+    max-width:1300px;
+
+    margin:auto;
+}
+
+.people-benefits-content span{
+
+    color:#2563eb;
+
+    font-size:14px;
+
+    font-weight:700;
+
+    letter-spacing:5px;
+}
+
+.people-benefits-content h2{
+
+    margin-top:20px;
+
+    font-size:58px;
+
+    line-height:1.1;
+
+    color:#0f172a;
+
+    font-weight:800;
+}
+
+.people-benefits-grid{
+
+    margin-top:60px;
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:25px;
+}
+
+.people-benefit{
+
+    background:white;
+
+    border-radius:24px;
+
+    padding:30px;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:18px;
+
+    border:1px solid #e2e8f0;
+}
+
+.people-benefit i{
+
+    color:#2563eb;
+
+    font-size:22px;
+}
+
+.people-benefit span{
+
+    font-size:18px;
+
+    color:#0f172a;
+
+    font-weight:600;
+
+    letter-spacing:0;
+}
+
+
+/* =========================================================
+   CTA
+========================================================= */
+
+.people-cta{
+
+    width:100%;
+
+    padding:0 80px 120px;
+
+    background:#f8fafc;
+}
+
+.people-cta-content{
+
+    width:100%;
+
+    max-width:1300px;
+
+    margin:auto;
+
+    background:
+    linear-gradient(
+        135deg,
+        #071028,
+        #0f172a
+    );
+
+    border-radius:40px;
+
+    padding:70px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+    gap:40px;
+}
+
+.people-cta-content span{
+
+    color:#3b82f6;
+
+    font-size:14px;
+
+    font-weight:700;
+
+    letter-spacing:5px;
+}
+
+.people-cta-content h2{
+
+    margin-top:20px;
+
+    font-size:52px;
+
+    line-height:1.1;
+
+    color:white;
+
+    max-width:700px;
+
+    font-weight:800;
+}
+
+.people-cta-content a{
+
+    min-width:280px;
+
+    height:70px;
+
+    border-radius:20px;
+
+    background:
+    linear-gradient(
+        135deg,
+        #2563eb,
+        #1d4ed8
+    );
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    text-decoration:none;
+
+    color:white;
+
+    font-size:16px;
+
+    font-weight:700;
+
+    transition:0.4s;
+
+    box-shadow:
+    0 15px 35px rgba(37,99,235,0.25);
+}
+
+.people-cta-content a:hover{
+
+    transform:translateY(-5px);
+}
+
+
+/* =========================================================
+   PEOPLE RESPONSIVE
+========================================================= */
+
+@media(max-width:768px){
+
+    body{
+
+        overflow-x:hidden;
+    }
+
+    .people-hero{
+
+        padding:220px 25px 60px;
+    }
+
+    .people-hero-content h1{
+
+        font-size:42px;
+    }
+
+    .people-hero-content p{
+
+        font-size:18px;
+
+        line-height:1.7;
+    }
+
+    .people-intro{
+
+        padding:70px 25px;
+    }
+
+    .people-intro-grid{
+
+        grid-template-columns:1fr;
+
+        gap:50px;
+    }
+
+    .people-intro-text h2{
+
+        font-size:42px;
+    }
+
+    .people-intro-text p{
+
+        font-size:18px;
+
+        line-height:1.8;
+    }
+
+    .people-services{
+
+        padding:70px 25px;
+    }
+
+    .people-services-title{
+
+        margin-bottom:50px;
+    }
+
+    .people-services-title h2{
+
+        font-size:42px;
+    }
+
+    .people-services-grid{
+
+        grid-template-columns:1fr;
+
+        gap:25px;
+    }
+
+    .people-card{
+
+        padding:40px 30px;
+    }
+
+    .people-card i{
+
+        width:70px;
+        height:70px;
+
+        font-size:30px;
+    }
+
+    .people-card h3{
+
+        font-size:26px;
+    }
+
+    .people-card p{
+
+        font-size:17px;
+
+        line-height:1.7;
+    }
+
+    .people-benefits{
+
+        padding:70px 25px;
+    }
+
+    .people-benefits-content h2{
+
+        font-size:42px;
+    }
+
+    .people-benefits-grid{
+
+        grid-template-columns:1fr;
+
+        gap:20px;
+    }
+
+    .people-benefit{
+
+        padding:25px;
+
+        align-items:flex-start;
+    }
+
+    .people-benefit span{
+
+        font-size:17px;
+    }
+
+    .people-cta{
+
+        padding:0 25px 70px;
+    }
+
+    .people-cta-content{
+
+        padding:40px 30px;
+
+        border-radius:30px;
+
+        flex-direction:column;
+
+        text-align:center;
+    }
+
+    .people-cta-content h2{
+
+        font-size:34px;
+
+        line-height:1.2;
+    }
+
+    .people-cta-content a{
+
+        width:100%;
+
+        min-width:100%;
+    }
+
+}
+

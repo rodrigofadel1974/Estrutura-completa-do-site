@@ -1,0 +1,920 @@
+/* =========================================================
+   EXCEL HERO
+========================================================= */
+
+.excel-hero{
+
+    width:100%;
+
+    padding:140px 80px;
+
+    background:
+    linear-gradient(
+        135deg,
+        #071028,
+        #0f172a
+    );
+
+    color:white;
+}
+
+.excel-hero-content{
+
+    width:100%;
+
+    max-width:1200px;
+
+    margin:auto;
+}
+
+.excel-hero-content span{
+
+    color:#3b82f6;
+
+    font-size:14px;
+
+    font-weight:700;
+
+    letter-spacing:5px;
+}
+
+.excel-hero-content h1{
+
+    margin-top:25px;
+
+    font-size:72px;
+
+    line-height:1.1;
+
+    font-weight:800;
+
+    max-width:1000px;
+}
+
+.excel-hero-content p{
+
+    margin-top:30px;
+
+    max-width:850px;
+
+    font-size:22px;
+
+    line-height:1.8;
+
+    color:#cbd5e1;
+}
+
+
+
+/* =========================================================
+   INTRO
+========================================================= */
+
+.excel-intro{
+
+    width:100%;
+
+    padding:120px 80px;
+
+    background:#f8fafc;
+}
+
+.excel-intro-grid{
+
+    width:100%;
+
+    max-width:1300px;
+
+    margin:auto;
+
+    display:grid;
+
+    grid-template-columns:500px 1fr;
+
+    gap:80px;
+
+    align-items:center;
+}
+
+
+
+/* IMAGE */
+
+.excel-intro-image img{
+
+    width:100%;
+
+    border-radius:30px;
+
+    display:block;
+
+    box-shadow:
+    0 20px 50px rgba(15,23,42,0.08);
+}
+
+
+
+/* TEXT */
+
+.excel-intro-text span{
+
+    color:#2563eb;
+
+    font-size:14px;
+
+    font-weight:700;
+
+    letter-spacing:5px;
+}
+
+.excel-intro-text h2{
+
+    margin-top:20px;
+
+    font-size:58px;
+
+    line-height:1.1;
+
+    color:#0f172a;
+
+    font-weight:800;
+}
+
+.excel-intro-text p{
+
+    margin-top:25px;
+
+    font-size:20px;
+
+    line-height:1.9;
+
+    color:#64748b;
+}
+
+
+
+/* =========================================================
+   LEVELS
+========================================================= */
+
+.excel-levels{
+
+    width:100%;
+
+    padding:120px 80px;
+
+    background:white;
+}
+
+
+
+/* TITLE */
+
+.excel-levels-title{
+
+    text-align:center;
+
+    margin-bottom:70px;
+}
+
+.excel-levels-title span{
+
+    color:#2563eb;
+
+    font-size:14px;
+
+    font-weight:700;
+
+    letter-spacing:5px;
+}
+
+.excel-levels-title h2{
+
+    margin-top:20px;
+
+    font-size:58px;
+
+    color:#0f172a;
+
+    font-weight:800;
+}
+
+
+
+/* GRID */
+
+.excel-levels-grid{
+
+    width:100%;
+
+    max-width:1300px;
+
+    margin:auto;
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:30px;
+}
+
+
+
+/* CARD */
+
+.excel-card{
+
+    background:#f8fafc;
+
+    border-radius:30px;
+
+    padding:50px;
+
+    border:1px solid #e2e8f0;
+
+    transition:0.4s;
+}
+
+.excel-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:
+    0 20px 40px rgba(15,23,42,0.06);
+}
+
+
+
+/* ICON */
+
+.excel-card i{
+
+    width:90px;
+    height:90px;
+
+    border-radius:24px;
+
+    background:#eff6ff;
+
+    color:#2563eb;
+
+    font-size:38px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+}
+
+
+
+/* TEXT */
+
+.excel-card h3{
+
+    margin-top:35px;
+
+    font-size:30px;
+
+    color:#0f172a;
+
+    font-weight:800;
+}
+
+.excel-card p{
+
+    margin-top:20px;
+
+    font-size:18px;
+
+    line-height:1.8;
+
+    color:#64748b;
+}
+
+
+
+/* =========================================================
+   LEARN
+========================================================= */
+
+.excel-learn{
+
+    width:100%;
+
+    padding:120px 80px;
+
+    background:#f8fafc;
+}
+
+.excel-learn-content{
+
+    width:100%;
+
+    max-width:1300px;
+
+    margin:auto;
+}
+
+
+
+/* TITLE */
+
+.excel-learn-content span{
+
+    color:#2563eb;
+
+    font-size:14px;
+
+    font-weight:700;
+
+    letter-spacing:5px;
+}
+
+.excel-learn-content h2{
+
+    margin-top:20px;
+
+    font-size:58px;
+
+    line-height:1.1;
+
+    color:#0f172a;
+
+    font-weight:800;
+}
+
+
+
+/* GRID */
+
+.excel-learn-grid{
+
+    margin-top:60px;
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:25px;
+}
+
+
+
+/* ITEM */
+
+.excel-learn-item{
+
+    background:white;
+
+    border-radius:24px;
+
+    padding:30px;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:18px;
+
+    border:1px solid #e2e8f0;
+}
+
+
+
+/* ICON */
+
+.excel-learn-item i{
+
+    color:#2563eb;
+
+    font-size:22px;
+}
+
+
+
+/* TEXT */
+
+.excel-learn-item span{
+
+    font-size:18px;
+
+    color:#0f172a;
+
+    font-weight:600;
+
+    letter-spacing:0;
+}
+
+
+
+/* =========================================================
+   EXPERIENCE
+========================================================= */
+
+.excel-experience{
+
+    width:100%;
+
+    padding:120px 80px;
+
+    background:white;
+}
+
+.excel-experience-content{
+
+    width:100%;
+
+    max-width:1100px;
+
+    margin:auto;
+
+    text-align:center;
+}
+
+
+
+/* TEXT */
+
+.excel-experience-content span{
+
+    color:#2563eb;
+
+    font-size:14px;
+
+    font-weight:700;
+
+    letter-spacing:5px;
+}
+
+.excel-experience-content h2{
+
+    margin-top:20px;
+
+    font-size:58px;
+
+    line-height:1.1;
+
+    color:#0f172a;
+
+    font-weight:800;
+}
+
+.excel-experience-content p{
+
+    margin-top:30px;
+
+    font-size:20px;
+
+    line-height:1.9;
+
+    color:#64748b;
+}
+
+
+
+/* =========================================================
+   PUBLIC
+========================================================= */
+
+.excel-public{
+
+    width:100%;
+
+    padding:120px 80px;
+
+    background:#f8fafc;
+}
+
+.excel-public-content{
+
+    width:100%;
+
+    max-width:1300px;
+
+    margin:auto;
+}
+
+
+
+/* TITLE */
+
+.excel-public-content span{
+
+    color:#2563eb;
+
+    font-size:14px;
+
+    font-weight:700;
+
+    letter-spacing:5px;
+}
+
+.excel-public-content h2{
+
+    margin-top:20px;
+
+    font-size:58px;
+
+    line-height:1.1;
+
+    color:#0f172a;
+
+    font-weight:800;
+}
+
+
+
+/* GRID */
+
+.excel-public-grid{
+
+    margin-top:60px;
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:25px;
+}
+
+
+
+/* ITEM */
+
+.excel-public-item{
+
+    background:white;
+
+    border-radius:24px;
+
+    padding:30px;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:18px;
+
+    border:1px solid #e2e8f0;
+}
+
+
+
+/* ICON */
+
+.excel-public-item i{
+
+    color:#2563eb;
+
+    font-size:22px;
+}
+
+
+
+/* TEXT */
+
+.excel-public-item span{
+
+    font-size:18px;
+
+    color:#0f172a;
+
+    font-weight:600;
+
+    letter-spacing:0;
+}
+
+
+
+/* =========================================================
+   CTA
+========================================================= */
+
+.excel-cta{
+
+    width:100%;
+
+    padding:0 80px 120px;
+
+    background:#f8fafc;
+}
+
+
+
+/* CONTENT */
+
+.excel-cta-content{
+
+    width:100%;
+
+    max-width:1300px;
+
+    margin:auto;
+
+    background:
+    linear-gradient(
+        135deg,
+        #071028,
+        #0f172a
+    );
+
+    border-radius:40px;
+
+    padding:70px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+    gap:40px;
+}
+
+
+
+/* TEXT */
+
+.excel-cta-content span{
+
+    color:#3b82f6;
+
+    font-size:14px;
+
+    font-weight:700;
+
+    letter-spacing:5px;
+}
+
+.excel-cta-content h2{
+
+    margin-top:20px;
+
+    font-size:52px;
+
+    line-height:1.1;
+
+    color:white;
+
+    max-width:700px;
+
+    font-weight:800;
+}
+
+
+
+/* BUTTON */
+
+.excel-cta-content a{
+
+    min-width:280px;
+
+    height:70px;
+
+    border-radius:20px;
+
+    background:
+    linear-gradient(
+        135deg,
+        #2563eb,
+        #1d4ed8
+    );
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    text-decoration:none;
+
+    color:white;
+
+    font-size:16px;
+
+    font-weight:700;
+
+    transition:0.4s;
+
+    box-shadow:
+    0 15px 35px rgba(37,99,235,0.25);
+}
+
+
+
+/* HOVER */
+
+.excel-cta-content a:hover{
+
+    transform:translateY(-5px);
+}
+
+
+
+/* =========================================================
+   RESPONSIVE
+========================================================= */
+
+@media(max-width:768px){
+
+    body{
+
+        overflow-x:hidden;
+    }
+
+    .excel-hero{
+
+        padding:220px 25px 60px;
+    }
+
+    .excel-hero-content h1{
+
+        font-size:42px;
+    }
+
+    .excel-hero-content p{
+
+        font-size:18px;
+
+        line-height:1.7;
+    }
+
+    .excel-intro{
+
+        padding:70px 25px;
+    }
+
+    .excel-intro-grid{
+
+        grid-template-columns:1fr;
+
+        gap:50px;
+    }
+
+    .excel-intro-text h2{
+
+        font-size:42px;
+    }
+
+    .excel-intro-text p{
+
+        font-size:18px;
+
+        line-height:1.8;
+    }
+
+    .excel-levels{
+
+        padding:70px 25px;
+    }
+
+    .excel-levels-title{
+
+        margin-bottom:50px;
+    }
+
+    .excel-levels-title h2{
+
+        font-size:42px;
+    }
+
+    .excel-levels-grid{
+
+        grid-template-columns:1fr;
+
+        gap:25px;
+    }
+
+    .excel-card{
+
+        padding:40px 30px;
+    }
+
+    .excel-card i{
+
+        width:70px;
+        height:70px;
+
+        font-size:30px;
+    }
+
+    .excel-card h3{
+
+        font-size:26px;
+    }
+
+    .excel-card p{
+
+        font-size:17px;
+
+        line-height:1.7;
+    }
+
+    .excel-learn{
+
+        padding:70px 25px;
+    }
+
+    .excel-learn-content h2{
+
+        font-size:42px;
+    }
+
+    .excel-learn-grid{
+
+        grid-template-columns:1fr;
+
+        gap:20px;
+    }
+
+    .excel-learn-item{
+
+        padding:25px;
+
+        align-items:flex-start;
+    }
+
+    .excel-learn-item span{
+
+        font-size:17px;
+    }
+
+    .excel-experience{
+
+        padding:70px 25px;
+    }
+
+    .excel-experience-content h2{
+
+        font-size:42px;
+    }
+
+    .excel-experience-content p{
+
+        font-size:18px;
+
+        line-height:1.8;
+    }
+
+    .excel-public{
+
+        padding:70px 25px;
+    }
+
+    .excel-public-content h2{
+
+        font-size:42px;
+    }
+
+    .excel-public-grid{
+
+        grid-template-columns:1fr;
+
+        gap:20px;
+    }
+
+    .excel-public-item{
+
+        padding:25px;
+
+        align-items:flex-start;
+    }
+
+    .excel-public-item span{
+
+        font-size:17px;
+    }
+
+    .excel-cta{
+
+        padding:0 25px 70px;
+    }
+
+    .excel-cta-content{
+
+        padding:40px 30px;
+
+        border-radius:30px;
+
+        flex-direction:column;
+
+        text-align:center;
+    }
+
+    .excel-cta-content h2{
+
+        font-size:34px;
+
+        line-height:1.2;
+    }
+
+    .excel-cta-content a{
+
+        width:100%;
+
+        min-width:100%;
+    }
+
+}
