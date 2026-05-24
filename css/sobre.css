@@ -371,101 +371,27 @@
 
 @media(max-width: 768px){
 
-    /* =========================================================
-   HEADER MOBILE
-========================================================= */
-
-    .header{
-
-        padding:18px 20px;
-
-        flex-direction:column;
-
-        gap:18px;
-    }
-
-    .logo img{
-
-        width:150px;
-    }
-
-
-    /* MENU */
-
-    .nav{
-
-        width:100%;
-
-        justify-content:center;
-
-        gap:18px;
-
-        flex-wrap:wrap;
-    }
-
-    .nav a{
-
-        font-size:14px;
-    }
-
-
-    /* BOTÃO */
-
-    .header-button{
-
-        width:100%;
-    }
-
-    .header-button .btn-header{
-
-        width:100%;
-
-        justify-content:center;
-
-        padding:16px 20px;
-
-        border-radius:14px;
-
-        font-size:15px;
-    }
-    
     body{
 
         overflow-x:hidden;
     }
 
-    /* HERO */
-
     .page-hero{
 
-        padding:180px 25px 70px;
-    }
-
-    .page-hero-content span{
-
-        font-size:12px;
-
-        letter-spacing:3px;
+        padding:220px 25px 60px;
     }
 
     .page-hero-content h1{
 
         font-size:42px;
-
-        line-height:1.15;
     }
 
     .page-hero-content p{
-
-        margin-top:25px;
 
         font-size:18px;
 
         line-height:1.7;
     }
-
-
-    /* ABOUT COMPANY */
 
     .about-company{
 
@@ -474,66 +400,22 @@
 
     .about-company-grid{
 
-        width:100%;
+        grid-template-columns:1fr;
 
-        max-width:1300px;
-
-        margin:auto;
-
-        display:grid;
-
-        grid-template-columns:minmax(0,500px) minmax(0,1fr);
-
-        gap:80px;
-
-        align-items:center;
-    }
-
-    .about-company-image{
-
-        width:100%;
-
-        min-width:0;
-    }
-
-    .about-company-image img{
-
-        width:100%;
-
-        max-width:100%;
-
-        border-radius:24px;
-
-        object-fit:cover;
-    }
-
-    .about-company-text span{
-
-        font-size:12px;
-
-        letter-spacing:3px;
+        gap:50px;
     }
 
     .about-company-text h2{
 
-        margin-top:15px;
-
-        font-size:38px;
-
-        line-height:1.2;
+        font-size:42px;
     }
 
     .about-company-text p{
 
-        margin-top:22px;
-
-        font-size:17px;
+        font-size:18px;
 
         line-height:1.8;
     }
-
-
-    /* VALUES */
 
     .values{
 
@@ -542,23 +424,12 @@
 
     .values-title{
 
-        margin-bottom:45px;
-    }
-
-    .values-title span{
-
-        font-size:12px;
-
-        letter-spacing:3px;
+        margin-bottom:50px;
     }
 
     .values-title h2{
 
-        margin-top:15px;
-
-        font-size:38px;
-
-        line-height:1.2;
+        font-size:42px;
     }
 
     .values-grid{
@@ -570,29 +441,67 @@
 
     .value-card{
 
-        padding:35px 28px;
-
-        border-radius:24px;
-    }
-
-    .value-card i{
-
-        font-size:42px;
+        padding:40px 30px;
     }
 
     .value-card h3{
-
-        margin-top:25px;
 
         font-size:24px;
     }
 
     .value-card p{
 
-        margin-top:18px;
-
-        font-size:16px;
+        font-size:17px;
 
         line-height:1.7;
     }
+
+    /* EXPERIENCE */
+
+    .experience{
+
+        padding:70px 25px;
+    }
+
+    .experience-grid{
+
+        grid-template-columns:1fr;
+
+        gap:45px;
+    }
+
+    .experience-image img{
+
+        width:100%;
+
+        max-width:100%;
+
+        border-radius:24px;
+    }
+
+    .experience-content span{
+
+        font-size:12px;
+
+        letter-spacing:3px;
+    }
+
+    .experience-content h2{
+
+        margin-top:15px;
+
+        font-size:38px;
+
+        line-height:1.2;
+    }
+
+    .experience-content p{
+
+        margin-top:22px;
+
+        font-size:17px;
+
+        line-height:1.8;
+    }
+
 }
