@@ -98,7 +98,8 @@ section{
 /* LOGO */
 
 .logo img{
-    height:55px;
+    height:70px;
+    width:192px;  
 }
 
 
@@ -163,17 +164,37 @@ section{
     margin-top:140px;
 
     position:relative;
+
+    overflow:hidden;
+
+    aspect-ratio: 1920 / 850;
 }
 
 
 /* SLIDES */
 
 .slide{
-    display:none;
+
+    position:absolute;
+
+    inset:0;
+
+    opacity:0;
+
+    visibility:hidden;
+
+    transition:
+    opacity 1.4s ease,
+    visibility 1.4s ease;
 }
 
 .slide.active{
-    display:block;
+
+    opacity:1;
+
+    visibility:visible;
+
+    z-index:2;
 }
 
 .slide img{
@@ -184,7 +205,10 @@ section{
 
     display:block;
 
-    transition:transform 8s ease;
+    transform:scale(1);
+
+    transition:
+    transform 8s ease;
 }
 
 .slide.active img{
@@ -200,7 +224,7 @@ section{
 
     left:130px;
 
-    bottom:150px;
+    bottom:250px;
 
     display:flex;
 
@@ -215,13 +239,21 @@ section{
 
     color:#ffffff;
 
-    padding:22px 38px;
+    padding:18px 34px;
 
     border-radius:18px;
 
     font-weight:700;
 
-    font-size:18px;
+    font-size:17px;
+
+    min-height:60px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
 }
 
 .btn-banner:hover{
@@ -231,12 +263,33 @@ section{
 .secondary{
 
     background:
-    rgba(255,255,255,.12);
+    rgba(255,255,255,.20);
 
     border:
-    1px solid rgba(255,255,255,.25);
+    1px solid rgba(255,255,255,.45);
 
-    backdrop-filter:blur(10px);
+    backdrop-filter:blur(14px);
+
+    color:#ffffff;
+
+    box-shadow:
+    0 10px 30px rgba(0,0,0,.18);
+}
+
+/* =========================================================
+   LIGHT SLIDE BUTTON
+========================================================= */
+
+.light-slide.active ~ .banner-buttons .secondary{
+
+    background:#0f172a;
+
+    color:#ffffff;
+
+    border:1px solid rgba(15,23,42,.15);
+
+    box-shadow:
+    0 15px 35px rgba(15,23,42,.18);
 }
 
 /* =========================================================
@@ -908,9 +961,10 @@ linear-gradient(
 
 .footer-brand img{
 
-    height:62px;
+    height:auto;
 
     margin-bottom:28px;
+    
 }
 
 .footer-brand p{
@@ -1384,24 +1438,6 @@ linear-gradient(
 ::-webkit-scrollbar-thumb:hover{
 
     background:#1d4ed8;
-}
-
-.hero-banner::after{
-
-    content:"";
-
-    position:absolute;
-
-    inset:0;
-
-    background:
-    linear-gradient(
-        to right,
-        rgba(2,6,23,.16),
-        rgba(2,6,23,.08)
-    );
-
-    pointer-events:none;
 }
 
 .info-card{
