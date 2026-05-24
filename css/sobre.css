@@ -371,6 +371,64 @@
 
 @media(max-width: 768px){
 
+    /* =========================================================
+   HEADER MOBILE
+========================================================= */
+
+    .header{
+
+        padding:18px 20px;
+
+        flex-direction:column;
+
+        gap:18px;
+    }
+
+    .logo img{
+
+        width:150px;
+    }
+
+
+    /* MENU */
+
+    .nav{
+
+        width:100%;
+
+        justify-content:center;
+
+        gap:18px;
+
+        flex-wrap:wrap;
+    }
+
+    .nav a{
+
+        font-size:14px;
+    }
+
+
+    /* BOTÃO */
+
+    .header-button{
+
+        width:100%;
+    }
+
+    .header-button .btn-header{
+
+        width:100%;
+
+        justify-content:center;
+
+        padding:16px 20px;
+
+        border-radius:14px;
+
+        font-size:15px;
+    }
+    
     body{
 
         overflow-x:hidden;
